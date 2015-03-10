@@ -22,7 +22,6 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="css/style.css">
-  
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -30,27 +29,6 @@
        Modernizr enables HTML5 elements & feature detects for optimal performance.
        Create your own custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
-  <script src="js/libs/respond.min.js"></script>
-
-  <!-- prevent iframe white flash -->
-  <script>
-    (function () {
-        
-        var div = document.createElement('div'),
-            ref = document.getElementsByTagName('base')[0] || 
-                  document.getElementsByTagName('script')[0];
-
-        div.innerHTML = '&shy;<style> iframe { visibility: hidden; } </style>';
-
-        ref.parentNode.insertBefore(div, ref);
-        
-        window.onload = function() {
-            div.parentNode.removeChild(div);
-        }
-        
-    })();
-  </script>
-
 </head>
 <body>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -58,30 +36,26 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   
   <!-- This is the background image -->
-  <!-- <img class="bgimg bg-main" src="img/bg-splash.jpg" /> -->
+  <img class="bgimg bg-main" src="img/bg-splash.jpg" />
 
   <div id="container">
     <div id="splash" role="main">
       <h1><img src="img/marlowe-logo.png" alt="Marlowe logo" width="246px" height="58px"></h1>
       <!-- <h2>MADE IN ITALY</h2> -->
-      
-      <div class="video-wrapper">
-        <iframe src="//player.vimeo.com/video/103838437?title=0&amp;byline=0&amp;portrait=0&amp;color=000000&amp;autoplay=1&amp;loop=1" width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-
       <nav id="nav-splash">
         <p><a href="home-it.html">ITALIAN</a></p>
         <p>/</p>
         <p><a href="home.html">ENGLISH</a></p>
       </nav>
     </div>
-    
     <footer>
       <div id="footer-bg"></div>
       <small>&copy; 2013 MARLOWE<sup>TM</sup> All Rights Reserved.</small>
+      <!-- <a id="credit" href="http://thewhiteroom.ca" target="blank">Design The White Room</a> -->
       <ul>
         <li><a href="http://www.facebook.com/MarloweCollection" target="blank">FACEBOOK</a></li>
         <li><a href="https://twitter.com/MARLOWEItaly" target="blank">TWITTER</a></li>
+        <!-- <li><a href="#">CREDIT</a></li> -->
       </ul>      
     </footer>
 

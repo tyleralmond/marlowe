@@ -340,9 +340,10 @@ a {
 
 #splash {
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
+  top: 18%;
   left: 50%;
-  margin-top: -74px;
+  /*margin-top: -74px;*/
   margin-left: -125px;
 }
 
@@ -355,7 +356,8 @@ a {
 
 #splash nav {
   font-size: 11px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
+  margin-top: 45px;
   position: absolute;
   left: 50%;
   margin-left: -56px;

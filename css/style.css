@@ -533,6 +533,7 @@ nav .active:hover {
 #brand p {
   font-size: 12px;
   font-weight: bold;
+  color: black;
 }
 
 /** Nano Scroller initial setup **/

@@ -740,10 +740,10 @@ nav .active:hover {
 
 .container-collection #nav-collection-bottom,
 .container-accessories #nav-collection-bottom {
-  width: 330px;
+  width: 360px;
   position: absolute;
   left: 50%;
-  margin-left: -165px;  
+  margin-left: -180px;  
   top: 23px;
 }
 

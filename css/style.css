@@ -846,7 +846,7 @@ nav .active-collection {
 .slide {
   width: 520px;
   height: 475px;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.1;
 }
 
@@ -857,7 +857,6 @@ nav .active-collection {
 .slide .slide-top,
 .slide .slide-bottom {
   font-family: Georgia, serif;
-  font-size: 10px;
   color: #1D1D1D;
 }
 

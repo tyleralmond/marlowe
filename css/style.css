@@ -821,11 +821,11 @@ nav .active-collection {
 /** large image **/
 
 #images {
-  width: 520px;
-  height: 475px;
+/*  width: 520px;
+  height: 475px;*/
   position: absolute;
   left: 50%;
-  margin-left: -160px;
+  margin-left: -300px;
   margin-top: 15px;
   overflow: hidden; 
 }
@@ -839,13 +839,13 @@ nav .active-collection {
   float: left;
   margin-right: 25px;
   display: block;
-  width: 317px;
-  height: 475px;
+  width: 600px;
+  height: 900px;
 }
 
 .slide {
-  width: 520px;
-  height: 475px;
+  width: 900px;
+  height: 900px;
   font-size: 12px;
   line-height: 1.1;
 }

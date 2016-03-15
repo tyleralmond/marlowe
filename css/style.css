@@ -827,6 +827,7 @@ nav .active-collection {
   left: 50%;
   margin-left: -300px;
   margin-top: 15px;
+  margin-bottom: 15px;
   overflow: hidden; 
 }
 
@@ -844,7 +845,7 @@ nav .active-collection {
 }
 
 .slide {
-  width: 900px;
+  width: 800px;
   height: 900px;
   font-size: 12px;
   line-height: 1.1;

@@ -610,10 +610,10 @@ nav .active:hover {
    ========================================================================== */
 
 #boutiques {
-  height: 480px;  
+  /*height: 480px;  */
   position: absolute;
   left: 50%;
-  margin: 155px 0 0 0;
+  margin: 155px 0 100px 0;
   margin-left: -85px;
 }
 
@@ -621,7 +621,7 @@ nav .active:hover {
   font-family: Georgia, serif;
   font-size: 19px;
   text-align: center;
-  margin: 0 0 13px 0;  
+  margin: 0;  
 }
 
 #locations {
@@ -632,13 +632,13 @@ nav .active:hover {
   font-weight: bold;
   font-size: 12px;
   text-align: center;
-  margin: 0 0 3px 0;  
+  margin: 20px 0 10px 0;  
 }
 
 #boutiques ul {
   font-size: 10px;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #boutiques span {
@@ -650,11 +650,12 @@ nav .active:hover {
    ========================================================================== */
 
 #contact {
-  height: 250px; 
+  /*height: 250px; */
   position: absolute;
   left: 50%;
   margin-left: -85px;
   margin-top: 155px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -662,13 +663,13 @@ nav .active:hover {
 #contact h2 {
   font-family: Georgia, serif;
   font-size: 19px;
-  margin: 0 0 13px 0;
+  margin: 0;
 }
 
 #contact h3 {
   font-weight: bold;
   font-size: 12px;
-  margin: 15px 0 0;
+  margin: 20px 0 5px 0;
 }
 
 #contact p {

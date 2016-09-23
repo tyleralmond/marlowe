@@ -739,19 +739,19 @@ nav .active:hover {
 
 .container-collection #nav-collection-bottom,
 .container-accessories #nav-collection-bottom {
-  width: 360px;
+  /*width: 360px;*/
   position: absolute;
   left: 50%;
-  margin-left: -180px;  
+  margin-left: -140px;  
   top: 23px;
 }
 
 .container-collection-it #nav-collection-bottom-it,
 .container-accessories-it #nav-collection-bottom-it {
-  width: 375px;
+  /*width: 375px;*/
   position: absolute;
   left: 50%;
-  margin-left: -187.5px;  
+  margin-left: -133px;  
   top: 23px;
 }
 

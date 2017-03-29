@@ -218,7 +218,7 @@ td { vertical-align: top; }
    Author: Tyler Almond
    ========================================================================== */
 
-@font-face {
+/*@font-face {
     font-family: 'gotham';
     src: url('fonts/gothamhtf-book.eot');
     src: url('fonts/gothamhtf-book.eot?#iefix') format('embedded-opentype'),
@@ -237,7 +237,7 @@ td { vertical-align: top; }
          url('fonts/gothamhtf-medium.svg#gothamhtf-medium') format('svg');
     font-weight: bold;
     font-style: normal;
-}
+}*/
 /*@font-face {
     font-family: 'garamond';
     src: url('fonts/agaramondpro-regular.eot');
@@ -260,8 +260,10 @@ td { vertical-align: top; }
 }*/
 
 body {
-  font-family: 'gotham';
+  /*font-family: 'gotham';*/
   -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
 }
 
 body {
@@ -360,7 +362,7 @@ a {
   margin-top: 45px;
   position: absolute;
   left: 50%;
-  margin-left: -56px;
+  margin-left: -52px;
   z-index: 9;
 }
 
@@ -461,12 +463,12 @@ header h1 {
 nav {
   position: absolute;
   left: 50%;
-  margin-left: -135.5px;
+  margin-left: -132px;
   margin-top: 25px;
 }
 
 #nav-it {
-  margin-left: -147px; 
+  margin-left: -139px; 
 }
 
 nav a {
@@ -614,7 +616,7 @@ nav .active:hover {
   position: absolute;
   left: 50%;
   margin: 155px 0 100px 0;
-  margin-left: -85px;
+  margin-left: -79px;
 }
 
 #boutiques h2 {
@@ -653,7 +655,7 @@ nav .active:hover {
   /*height: 250px; */
   position: absolute;
   left: 50%;
-  margin-left: -85px;
+  margin-left: -78px;
   margin-top: 155px;
   margin-bottom: 100px;
   text-align: center;
@@ -742,7 +744,7 @@ nav .active:hover {
   /*width: 360px;*/
   position: absolute;
   left: 50%;
-  margin-left: -140px;  
+  margin-left: -142px;  
   top: 23px;
 }
 
@@ -751,7 +753,7 @@ nav .active:hover {
   /*width: 375px;*/
   position: absolute;
   left: 50%;
-  margin-left: -133px;  
+  margin-left: -136px;  
   top: 23px;
 }
 

@@ -514,7 +514,8 @@ nav .active:hover {
   width: 400px;
   line-height: 1;
   position: fixed;
-  right: 70px;
+  /*right: 70px;*/
+  left: 70px;
   bottom: 90px;
   display: none;
 }
@@ -859,7 +860,7 @@ nav .active-collection {
 
 .slide .slide-top,
 .slide .slide-bottom {
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
   color: #1D1D1D;
 }
 
@@ -946,6 +947,42 @@ nav .active-collection {
 
 #collection-accessories p {
   font-size: 11px;
+}
+
+
+
+/*White BG Theme - dark fonts*/
+
+html,
+a,
+p,
+#splash nav a:hover,
+#brand p,
+nav .active a,
+nav .active-collection {
+  color: #000;
+}
+
+nav .active {
+  border-bottom: 1px solid #000;
+}
+
+#home h2,
+#splash nav a,
+#boutiques span,
+#collection-accessories h2 {
+  color: #555;
+}
+
+#header-bg {
+  background: none;
+}
+
+footer,
+footer a,
+.slide p
+ {
+  color: #FFF;
 }
 
 

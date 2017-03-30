@@ -963,7 +963,8 @@ nav .active-collection {
   color: #000;
 }
 
-nav .active {
+nav .active,
+nav .active:hover {
   border-bottom: 1px solid #000;
 }
 

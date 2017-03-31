@@ -508,7 +508,7 @@ nav .active:hover {
 }
 
 #home h2 {
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
   font-size: 29px;
   color: #F3E6BF;
   width: 400px;
@@ -616,7 +616,7 @@ nav .active:hover {
   /*height: 480px;  */
   position: absolute;
   left: 50%;
-  margin: 155px 0 100px 0;
+  margin: 100px 0 100px 0;
   margin-left: -79px;
 }
 
@@ -657,7 +657,7 @@ nav .active:hover {
   position: absolute;
   left: 50%;
   margin-left: -78px;
-  margin-top: 155px;
+  margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
 }
@@ -894,7 +894,8 @@ nav .active-collection {
 }
 
 #jpreBar {
-  background-color: #F3E6BF;   
+  /*background-color: #F3E6BF;*/
+  background-color: #FFF;
   animation: progress 2s linear infinite;
   -moz-animation: progress 2s linear infinite;
   -webkit-animation: progress 2s linear infinite;
@@ -954,9 +955,14 @@ nav .active-collection {
 /*White BG Theme - dark fonts*/
 
 html,
+body {
+  background: #FFF;
+}
+
+html,
 a,
 p,
-#splash nav a:hover,
+#splash nav a,
 #brand p,
 nav .active a,
 nav .active-collection {
@@ -968,8 +974,8 @@ nav .active:hover {
   border-bottom: 1px solid #000;
 }
 
+#splash nav a:hover,
 #home h2,
-#splash nav a,
 #boutiques span,
 #collection-accessories h2 {
   color: #555;
@@ -984,6 +990,10 @@ footer a,
 .slide p
  {
   color: #FFF;
+}
+
+.prev, .next {
+  background: #CCC;
 }
 
 

@@ -939,7 +939,7 @@ nav .active-collection {
 }
 
 #collection-accessories h2 {
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;*/
   color: #F3E6BF;
   font-size: 29px;
   line-height: 1;

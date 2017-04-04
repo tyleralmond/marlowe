@@ -349,6 +349,11 @@ a {
   margin-left: -125px;
 }
 
+#splash img {
+  width: 246px; 
+  height: 58px;
+}
+
 #splash h1 {
   margin: 40px auto 25px;
   margin: 0;

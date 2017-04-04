@@ -688,6 +688,9 @@ nav .active:hover {
 #contact a {
   font-size: 10px;
   margin: 0;
+  display: block;
+  text-decoration: none;
+  /*color: white;*/
 }
 
 /* =============================================================================
@@ -970,7 +973,8 @@ p,
 #splash nav a,
 #brand p,
 nav .active a,
-nav .active-collection {
+nav .active-collection,
+#contact a {
   color: #000;
 }
 

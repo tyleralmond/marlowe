@@ -514,9 +514,9 @@ nav .active:hover {
 
 #home h2 {
   /*font-family: Georgia, serif;*/
-  font-size: 29px;
+  font-size: 22px;
   color: #F3E6BF;
-  width: 400px;
+  /*width: 400px;*/
   line-height: 1;
   position: fixed;
   /*right: 70px;*/
@@ -939,14 +939,14 @@ nav .active-collection {
 #collection-accessories {
   position: fixed;
   bottom: 80px;
-  left: 300px;
+  left: 70px;
   display: none;
 }
 
 #collection-accessories h2 {
   /*font-family: Georgia, serif;*/
   color: #F3E6BF;
-  font-size: 29px;
+  font-size: 22px;
   line-height: 1;
   margin: 0;
 }

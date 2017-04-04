@@ -242,14 +242,14 @@ AddType text/x-vcard                        vcf
   ExpiresByType image/x-icon              "access plus 1 week"
 
 # Media: images, video, audio
-  ExpiresByType image/gif                 "access plus 1 month"
-  ExpiresByType image/png                 "access plus 1 month"
-  ExpiresByType image/jpg                 "access plus 1 month"
-  ExpiresByType image/jpeg                "access plus 1 month"
-  ExpiresByType video/ogg                 "access plus 1 month"
-  ExpiresByType audio/ogg                 "access plus 1 month"
-  ExpiresByType video/mp4                 "access plus 1 month"
-  ExpiresByType video/webm                "access plus 1 month"
+  ExpiresByType image/gif                 "access plus 1 hour”
+  ExpiresByType image/png                 "access plus 1 hour”
+  ExpiresByType image/jpg                 "access plus 1 hour"
+  ExpiresByType image/jpeg                "access plus 1 hour"
+  ExpiresByType video/ogg                 "access plus 1 hour"
+  ExpiresByType audio/ogg                 "access plus 1 hour"
+  ExpiresByType video/mp4                 "access plus 1 hour"
+  ExpiresByType video/webm                "access plus 1 hour"
 
 # HTC files  (css3pie)
   ExpiresByType text/x-component          "access plus 1 month"
@@ -262,8 +262,8 @@ AddType text/x-vcard                        vcf
   ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
 
 # CSS and JavaScript
-  ExpiresByType text/css                  "access plus 1 year"
-  ExpiresByType application/javascript    "access plus 1 year"
+  ExpiresByType text/css                  "access plus 1 hour"
+  ExpiresByType application/javascript    "access plus 1 hour"
 
 </IfModule>
 

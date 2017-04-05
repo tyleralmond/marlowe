@@ -465,6 +465,11 @@ header h1 {
   padding-top: 15px;            
 }
 
+header img {
+  width: 160px;
+  height: 25px;
+}
+
 nav {
   position: absolute;
   left: 50%;

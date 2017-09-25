@@ -525,7 +525,7 @@ nav .active:hover {
   line-height: 1;
   position: fixed;
   /*right: 70px;*/
-  left: 70px;
+  right: 70px;
   bottom: 90px;
   display: none;
 }

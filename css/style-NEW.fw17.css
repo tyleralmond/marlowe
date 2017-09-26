@@ -482,8 +482,7 @@ nav {
 }
 
 nav a {
-  /* color: #231F20; */
-  color: white;
+  color: #231F20;
   font-weight: bold;
   display: block;
   height: 19px;
